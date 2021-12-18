@@ -1,10 +1,7 @@
-# Datasets sources
-This is the safety level analysis based on NYPD Complaint Data Historic from NYC Open Data (url:https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i)
-
-The geolocation dataset is also from NYC Open Data (url: https://data.cityofnewyork.us/download/i8iw-xf4u/application%2Fzip)
-
-The idea of using NYPD Complaint Data Historic for safety analysis is inspired from BRUNA MENDES (url : https://www.kaggle.com/brunacmendes/new-york-crime-analysis/). Some of the data processing code is adapted from it.
-
+# Require Environment:
+pip install tweepy
+pip install geopy
 # Description
-First users need to download the dataset from the link in the crime_analysis.ipynb file, and after executing all cells in the notebook, a csv file called zipcode_saftylevel would be generated.
-The safety level is based on numbers of complaints, numbers of complaints normalized by population, and numbers of complaints normalized by area.
+This is populatiry analysis based on twitter API. The official accounts of attractions in NYC are seleced to gather information such as likes, reweets, and number of favorites. Then tweets that have topic related these attractions are colleted to apply sentimental analysis. 
+
+The whole process will take hours to finish since twitter API have limit requests in every 15 minutes. To keep the data up to date, once program start running, it will check if the last time the data was modified to decide if we need to update the data.
