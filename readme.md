@@ -1,5 +1,6 @@
 # Require Environment:
 pip install tweepy
+
 pip install geopy
 # Description
 This is populatiry analysis based on twitter API. The official accounts of attractions in NYC are seleced to gather information such as likes, reweets, and number of favorites. Then tweets that have topic related these attractions are colleted to apply sentimental analysis. 
