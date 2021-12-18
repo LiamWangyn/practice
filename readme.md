@@ -5,6 +5,6 @@ The geolocation dataset is also from NYC Open Data (url: https://data.cityofnewy
 
 The idea of using NYPD Complaint Data Historic for safety analysis is inspired from BRUNA MENDES (url : https://www.kaggle.com/brunacmendes/new-york-crime-analysis/). Some of the data processing code is adapted from it.
 
-# Utilization of this part.
-First users need to download the dataset from the link in the crime_analysis.ipynb file, and after excuted all cells in the notebook, a csv file called zipcode_saftylevel would be generated.
+# Description
+First users need to download the dataset from the link in the crime_analysis.ipynb file, and after executing all cells in the notebook, a csv file called zipcode_saftylevel would be generated.
 The safety level is based on numbers of complaints, numbers of complaints normalized by population, and numbers of complaints normalized by area.
